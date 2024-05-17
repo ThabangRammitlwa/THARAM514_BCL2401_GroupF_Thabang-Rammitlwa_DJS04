@@ -1,3 +1,4 @@
+
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
 
 // Initializes the page numbers and titles for the books and authors

@@ -11,6 +11,7 @@ let matches = books;
     const element = document.createElement('button');
     element.classList = 'preview';
     element.setAttribute('data-preview', id);
+    
     element.innerHTML = `
         <img class="preview__image" src="${image}"/>
         <div class="preview_info"><h3 class="preview_title">${title}</h3>
